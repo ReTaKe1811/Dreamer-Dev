@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.1.css">
+    <link rel="shortcut icon" type="x-icon" href="images/Logo.jpg">
+    <title>Dreamer Dev</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N26NW1ZG1M"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-N26NW1ZG1M');
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Dreamer Dev</a>
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="#services" data-i18n="aboutLink">About Me</a>
+            <a href="#contact" data-i18n="contactLink">Contact</a>
+            <div class="language-tab">
+                <button class="language-toggle" id="languageToggle" type="button" aria-expanded="false" aria-controls="languageOptions" data-i18n="languageButton">Language</button>
+                <div class="language-options" id="languageOptions" role="group" aria-label="Choose a language">
+                    <button type="button" data-language="en">English</button>
+                    <button type="button" data-language="pt">Português</button>
+                    <button type="button" data-language="de">Deutsch</button>
+                    <button type="button" data-language="es">Español</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <h2 data-i18n="welcome">Welcome, I'm a dreamer</h2>
+            <p class="hero-role" data-i18n="developer">Developer</p>
+            <h3 data-i18n="intro">I'm a student, developer, and designer from Germany.</h3>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title" data-i18n="aboutTitle">About Me</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon"><i class="fab fa-python" aria-hidden="true"></i></div>
+                <div class="info">
+                    <h3 data-i18n="programmingTitle">Programming</h3>
+                    <p data-i18n="programmingText">I can create websites, and I'm still learning to program. My biggest goals are to become a better person and learn how to build an AI.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-language" aria-hidden="true"></i></div>
+                <div class="info">
+                    <h3 data-i18n="languagesTitle">Languages</h3>
+                    <p data-i18n="languagesText">I speak Portuguese, French, Spanish, and German.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fas fa-user" aria-hidden="true"></i></div>
+                <div class="info">
+                    <h3 data-i18n="ageTitle">Age</h3>
+                    <p data-i18n="ageText">I'm 15 years old.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title" data-i18n="contactTitle">Let's Work Together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                <div class="info">
+                    <h3 data-i18n="emailTitle">Email</h3>
+                    <p>nicolasheld14@gmail.com</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fab fa-discord" aria-hidden="true"></i></div>
+                <div class="info">
+                    <h3>Discord</h3>
+                    <p><span data-i18n="usernameLabel">Username:</span> retake_the_best</p>
+                </div>
+            </div>
+            <a class="card contact-link" href="https://www.instagram.com/nicolas_heeld/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Visit Dreamer Dev on Instagram">
+                <div class="icon"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+                <div class="info">
+                    <h3>Instagram</h3>
+                    <p data-i18n="instagramText">Visit my Instagram profile: @nicolas_heeld</p>
+                </div>
+            </a>
+            <a class="card contact-link" href="https://github.com/nicolasheld14" target="_blank" rel="noopener noreferrer" aria-label="Visit Dreamer Dev on GitHub">
+                <div class="icon"><i class="fab fa-github" aria-hidden="true"></i></div>
+                <div class="info">
+                    <h3>GitHub</h3>
+                    <p data-i18n="githubText">Visit my GitHub profile: @nicolasheld14</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title"><span data-i18n="copyright">Copyright</span> © <span>Dreamer Dev</span></p>
+    </footer>
+
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TG3SNWNX"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+    <script>
+        const translations = {
+            en: {
+                aboutLink: "About Me",
+                contactLink: "Contact",
+                languageButton: "Language",
+                welcome: "Welcome, I'm a dreamer",
+                developer: "Developer",
+                intro: "I'm a student, developer, and designer from Germany.",
+                aboutTitle: "About Me",
+                programmingTitle: "Programming",
+                programmingText: "I can create websites, and I'm still learning to program. My biggest goals are to become a better person and learn how to build an AI.",
+                languagesTitle: "Languages",
+                languagesText: "I speak Portuguese, French, Spanish, and German.",
+                ageTitle: "Age",
+                ageText: "I'm 15 years old.",
+                contactTitle: "Let's Work Together",
+                emailTitle: "Email",
+                usernameLabel: "Username:",
+                instagramText: "Visit my Instagram profile: @nicolas_heeld",
+                githubText: "Visit my GitHub profile: @nicolasheld14",
+                copyright: "Copyright"
+            },
+            pt: {
+                aboutLink: "Sobre mim",
+                contactLink: "Contato",
+                languageButton: "Idioma",
+                welcome: "Bem-vindo, sou um sonhador",
+                developer: "Desenvolvedor",
+                intro: "Sou estudante, desenvolvedor e designer da Alemanha.",
+                aboutTitle: "Sobre mim",
+                programmingTitle: "Programação",
+                programmingText: "Consigo criar sites e ainda estou aprendendo a programar. Meus maiores objetivos são me tornar uma pessoa melhor e aprender a criar uma inteligência artificial.",
+                languagesTitle: "Idiomas",
+                languagesText: "Falo português, francês, espanhol e alemão.",
+                ageTitle: "Idade",
+                ageText: "Tenho 15 anos.",
+                contactTitle: "Vamos trabalhar juntos",
+                emailTitle: "E-mail",
+                usernameLabel: "Nome de usuário:",
+                instagramText: "Visite meu perfil no Instagram: @nicolas_heeld",
+                githubText: "Visite meu perfil no GitHub: @nicolasheld14",
+                copyright: "Direitos autorais"
+            },
+            de: {
+                aboutLink: "Über mich",
+                contactLink: "Kontakt",
+                languageButton: "Sprache",
+                welcome: "Willkommen, ich bin ein Träumer",
+                developer: "Entwickler",
+                intro: "Ich bin Schüler, Entwickler und Designer aus Deutschland.",
+                aboutTitle: "Über mich",
+                programmingTitle: "Programmierung",
+                programmingText: "Ich kann Websites erstellen und lerne noch programmieren. Meine größten Ziele sind, ein besserer Mensch zu werden und zu lernen, wie man eine KI entwickelt.",
+                languagesTitle: "Sprachen",
+                languagesText: "Ich spreche Portugiesisch, Französisch, Spanisch und Deutsch.",
+                ageTitle: "Alter",
+                ageText: "Ich bin 15 Jahre alt.",
+                contactTitle: "Lass uns zusammenarbeiten",
+                emailTitle: "E-Mail",
+                usernameLabel: "Benutzername:",
+                instagramText: "Besuche mein Instagram-Profil: @nicolas_heeld",
+                githubText: "Besuche mein GitHub-Profil: @nicolasheld14",
+                copyright: "Urheberrecht"
+            },
+            es: {
+                aboutLink: "Sobre mí",
+                contactLink: "Contacto",
+                languageButton: "Idioma",
+                welcome: "Bienvenido, soy un soñador",
+                developer: "Desarrollador",
+                intro: "Soy estudiante, desarrollador y diseñador de Alemania.",
+                aboutTitle: "Sobre mí",
+                programmingTitle: "Programación",
+                programmingText: "Puedo crear sitios web y todavía estoy aprendiendo a programar. Mis mayores objetivos son ser mejor persona y aprender a crear una inteligencia artificial.",
+                languagesTitle: "Idiomas",
+                languagesText: "Hablo portugués, francés, español y alemán.",
+                ageTitle: "Edad",
+                ageText: "Tengo 15 años.",
+                contactTitle: "Trabajemos juntos",
+                emailTitle: "Correo electrónico",
+                usernameLabel: "Nombre de usuario:",
+                instagramText: "Visita mi perfil de Instagram: @nicolas_heeld",
+                githubText: "Visita mi perfil de GitHub: @nicolasheld14",
+                copyright: "Derechos de autor"
+            }
+        };
+
+        const languageToggle = document.getElementById("languageToggle");
+        const languageOptions = document.getElementById("languageOptions");
+
+        languageToggle.addEventListener("click", function () {
+            const isExpanded = languageToggle.getAttribute("aria-expanded") === "true";
+            languageToggle.setAttribute("aria-expanded", String(!isExpanded));
+            languageOptions.classList.toggle("is-open", !isExpanded);
+        });
+
+        languageOptions.addEventListener("click", function (event) {
+            const button = event.target.closest("[data-language]");
+            if (!button) return;
+
+            const language = button.dataset.language;
+            document.documentElement.lang = language;
+            document.querySelectorAll("[data-i18n]").forEach(function (element) {
+                element.textContent = translations[language][element.dataset.i18n];
+            });
+            languageToggle.setAttribute("aria-expanded", "false");
+            languageOptions.classList.remove("is-open");
+        });
+
+        document.addEventListener("click", function (event) {
+            if (!event.target.closest(".language-tab")) {
+                languageToggle.setAttribute("aria-expanded", "false");
+                languageOptions.classList.remove("is-open");
+            }
+        });
+    </script>
+</body>
+</html>
